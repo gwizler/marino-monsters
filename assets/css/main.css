@@ -234,7 +234,9 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
-
+.ff-powered-img img {
+	display: none !important;
+}
 /* Loader */
 
 	@-moz-keyframes spinner-show {
