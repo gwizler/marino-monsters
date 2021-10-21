@@ -2155,6 +2155,9 @@ input, select, textarea {
 	section.special, article.special {
 		text-align: center;
 	}
+	section.specialhero, article.specialhero {
+		text-align: center;
+	}
 
 	header p {
 		color: #ffffff;
@@ -2660,6 +2663,18 @@ input, select, textarea {
 			ul.actions.special li:first-child {
 				padding-left: 0;
 			}
+			ul.actions.specialhero {
+				-moz-justify-content: right;
+				-webkit-justify-content: right;
+				-ms-justify-content: right;
+				justify-content: right;
+				width: 100%;
+				margin-left: 0;
+			}
+	
+				ul.actions.specialhero li:first-child {
+					padding-left: 0;
+				}
 
 		ul.actions.stacked {
 			-moz-flex-direction: column;
@@ -3549,6 +3564,7 @@ input, select, textarea {
 	}
 	.header-section6-h2{
 		color: #f26820;
+		padding-top: 20px;
 	}
 
 /* Footer */
@@ -3682,6 +3698,15 @@ input, select, textarea {
 			}
 
 		/* Spotlight */
+
+		ul.actions.specialhero {
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			width: 100%;
+			margin-left: 0;
+		}
 
 			.spotlight {
 				background-attachment: scroll;
