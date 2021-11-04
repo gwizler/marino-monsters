@@ -237,6 +237,9 @@ input, select, textarea {
 .ff-powered-img img {
 	display: none !important;
 }
+.ff-warned{
+	display: none !important;
+}
 /* Loader */
 
 	@-moz-keyframes spinner-show {
